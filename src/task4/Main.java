@@ -3,6 +3,12 @@ package task4;
 public class Main {
     static void main(String[] args) {
 
+    Notification email = new Email();
+    Notification sms = new Sms();
+    sms.sendmessage("Ilkin", "Java");
+    email.sendmessage("eyyubofilkin@gmail.com", "Java");
+
+
 
 
 
